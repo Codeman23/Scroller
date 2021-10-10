@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroller</title>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body data-barba="wrapper">
+
+<header class="header">
+    <h1><a href="./index.html" class="logo">scroller</a></h1>
+    <div class="burger">
+        <div class="burger__line_1"></div>
+        <div class="burger__line_2"></div>
+    </div>
+</header>
+
+<main data-barba="container" data-barba-namespace="games">
+
+    <section class="game game_slide">
+        <div class="game__desc">
+            <h1 class="game__title game__title_orange">Action RPG</h1>
+            <p class="game__txt">
+                Diablo II: Resurrected is the definitive remastering of Diablo II and its Lord of Destruction
+                expansion—two hallmark entries in Blizzard Entertainment’s genre-defining action role-playing series.
+            </p>
+        </div>
+        <div class="game__pic">
+            <img class="game__img" src="../img/game-1.jpg" alt="" />
+        </div>
+        <div class="game__nr"><span>1</span></div>
+    </section>
+
+    <section class="game game_slide">
+        <div class="game__desc">
+            <h1 class="game__title game__title_red">Damn good</h1>
+            <p class="game__txt">
+                Veteran players, as well as those who missed out when the original game was first released on PC.
+                Diablo II’s timeless gameplay with modern visuals and audio that take advantage of today’s gaming hardware.
+            </p>
+        </div>
+        <div class="game__pic">
+            <img class="game__img" src="../img/game-2.jpg" alt="" />
+        </div>
+        <div class="game__nr"><span>11</span></div>
+    </section>
+
+    <section class="game game_slide">
+        <div class="game__desc">
+            <h1 class="game__title game__title_green">CO-OP | PVP</h1>
+            <p class="game__txt">
+                Diablo® II: Resurrected  can be played as a solo experience, or grab some friends and enjoy multiplayer co-op.
+                Then blow off some steam and claim a few ears by engaging in thrilling PvP duels outside of town.
+            </p>
+        </div>
+        <div class="game__pic">
+            <img class="game__img" src="../img/game-3.jpg" alt="" />
+        </div>
+        <div class="game__nr"><span>111</span></div>
+    </section>
+
+</main>
+
+<nav class="navBar">
+    <ul class="navBar__links">
+        <h3 class="navBar__linksTxt">Twitter</h3>
+        <h3 class="navBar__linksTxt">Youtube</h3>
+        <h3 class="navBar__linksTxt">Instragram</h3>
+    </ul>
+    <div class="navBar__contact">
+        <h2 class="navBar__title">Stay in touch.</h2>
+        <p class="navBar__txt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorem
+            praesentium ea amet error quidem natus. Magnam explicabo sed tenetur?
+        </p>
+    </div>
+</nav>
+
+<div class="swipe swipe_orange"></div>
+<div class="swipe swipe_red"></div>
+<div class="swipe swipe_redDark"></div>
+
+<script src="https://unpkg.com/@barba/core"></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+        integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+        integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+        integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+        integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+        crossorigin="anonymous"
+></script>
+<script src="../app.js"></script>
+</body>
+</html>

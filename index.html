@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scroller</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body data-barba="wrapper">
+
+<header class="header">
+  <h1><a href="./index.html" class="logo">scroller</a></h1>
+  <div class="burger">
+    <div class="burger__line_1"></div>
+    <div class="burger__line_2"></div>
+  </div>
+</header>
+
+<main data-barba="container" data-barba-namespace="home">
+
+  <section class="slide">
+    <div class="slide__pic">
+      <img class="slide__img" src="./img/diablo.jpg" alt="image" />
+      <div class="slide__reveal"></div>
+    </div>
+    <div class="slide__desc">
+      <div class="slide__titleWrap">
+        <h2 class="slide__title">
+          DIABLO <span class="slide__title_number">1</span> <span class="slide__title_orange"><br>HELLFIRE</span>
+        </h2>
+        <div class="slide__titleSwipe slide__titleSwipe_orange"></div>
+      </div>
+      <p class="slide__txt">
+        Stay awhile and listen. Diablo Hellfire is old and clunky but still a blast to play. It's one of those games you need to try atleast once in your life.
+      </p>
+      <a href="./games/index.html" class="slide__btn">Explore</a>
+      <div class="slide__revealTxt"></div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide__pic">
+      <img class="slide__img" src="./img/diablo-2.jpg" alt="image" />
+      <div class="slide__reveal"></div>
+    </div>
+    <div class="slide__desc">
+      <div class="slide__titleWrap">
+        <h2 class="slide__title">
+          DIABLO <span class="slide__title_number">11</span> <span class="slide__title_red"><br>REMASTER</span>
+        </h2>
+        <div class="slide__titleSwipe slide__titleSwipe_red"></div>
+      </div>
+      <p class="slide__txt">
+        Evil is resurrected in the timeless action RPG classic Diablo® II, and its acclaimed expansion Diablo II: Lord of Destruction®, now remastered and upgraded.
+      </p>
+      <a href="./games/index.html" class="slide__btn">Explore</a>
+      <div class="slide__revealTxt"></div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="slide__pic">
+      <img class="slide__img" src="./img/diablo-3.jpg" alt="image" />
+      <div class="slide__reveal"></div>
+    </div>
+    <div class="slide__desc">
+      <div class="slide__titleWrap">
+        <h2 class="slide__title">
+          DIABLO <span class="slide__title_number">111</span> <span class="slide__title_green"><br>ETERNAL</span>
+        </h2>
+        <div class="slide__titleSwipe slide__titleSwipe_green"></div>
+      </div>
+      <p class="slide__txt">
+        Diablo III is a genre-defining action-RPG set in Sanctuary, a world ravaged by the eternal conflict between angels and demons.
+      </p>
+      <a href="./games/index.html" class="slide__btn">Explore</a>
+      <div class="slide__revealTxt"></div>
+    </div>
+  </section>
+
+</main>
+
+<nav class="navBar">
+  <ul class="navBar__links">
+    <h3 class="navBar__linksTxt">Twitter</h3>
+    <h3 class="navBar__linksTxt">Youtube</h3>
+    <h3 class="navBar__linksTxt">Instragram</h3>
+  </ul>
+  <div class="navBar__contact">
+    <h2 class="navBar__title">Stay in touch.</h2>
+    <p class="navBar__txt">
+      Do you want to read last news about games and development materials or contact with our PR team? We will help you with this case!
+    </p>
+  </div>
+</nav>
+
+<div class="swipe swipe_orange"></div>
+<div class="swipe swipe_red"></div>
+<div class="swipe swipe_redDark"></div>
+
+<script src="https://unpkg.com/@barba/core"></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+        integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+        integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+        integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+        integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+        crossorigin="anonymous"
+></script>
+<script src="./app.js"></script>
+</body>
+</html>
